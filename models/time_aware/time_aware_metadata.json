@@ -1,0 +1,109 @@
+{
+  "feature_columns": [
+    "home_goals",
+    "away_goals",
+    "goal_difference",
+    "home_xg",
+    "away_xg",
+    "xg_difference",
+    "home_shots",
+    "away_shots",
+    "shot_difference",
+    "home_passes",
+    "away_passes",
+    "pass_difference",
+    "home_pass_completion",
+    "away_pass_completion",
+    "home_pressures",
+    "away_pressures",
+    "pressure_difference",
+    "home_carries",
+    "away_carries",
+    "home_recoveries",
+    "away_recoveries",
+    "home_interceptions",
+    "away_interceptions",
+    "home_recent_xg",
+    "away_recent_xg",
+    "home_recent_shots",
+    "away_recent_shots",
+    "home_recent_pressures",
+    "away_recent_pressures",
+    "home_momentum",
+    "away_momentum",
+    "momentum_difference"
+  ],
+  "class_order": [
+    "Home Win",
+    "Draw",
+    "Away Win"
+  ],
+  "snapshot_minutes": [
+    15,
+    30,
+    45,
+    60,
+    75,
+    85
+  ],
+  "random_state": 42,
+  "test_size": 0.2,
+  "training_match_count": 400,
+  "test_match_count": 100,
+  "minutes": {
+    "15": {
+      "best_model": "Random Forest",
+      "accuracy": 0.46,
+      "macro_f1": 0.4539641149810641,
+      "log_loss": 1.3385063752506041,
+      "wrong_confidence": 0.46574145548420387,
+      "selection_score": 0.4446349979349169,
+      "model_file": "match_outcome_15.joblib"
+    },
+    "30": {
+      "best_model": "Random Forest",
+      "accuracy": 0.51,
+      "macro_f1": 0.5111111111111111,
+      "log_loss": 1.4287654827903427,
+      "wrong_confidence": 0.4677071910119868,
+      "selection_score": 0.4711371670783526,
+      "model_file": "match_outcome_30.joblib"
+    },
+    "45": {
+      "best_model": "Logistic Regression",
+      "accuracy": 0.56,
+      "macro_f1": 0.562673644763197,
+      "log_loss": 2.3215405530821895,
+      "wrong_confidence": 0.5604590721859869,
+      "selection_score": 0.4574955052792373,
+      "model_file": "match_outcome_45.joblib"
+    },
+    "60": {
+      "best_model": "Random Forest",
+      "accuracy": 0.66,
+      "macro_f1": 0.6456516286236428,
+      "log_loss": 1.8333423580003463,
+      "wrong_confidence": 0.5266458848389273,
+      "selection_score": 0.5314366723671351,
+      "model_file": "match_outcome_60.joblib"
+    },
+    "75": {
+      "best_model": "Random Forest",
+      "accuracy": 0.72,
+      "macro_f1": 0.7069153069153069,
+      "log_loss": 2.062002292002814,
+      "wrong_confidence": 0.54052784301202,
+      "selection_score": 0.5573995978110959,
+      "model_file": "match_outcome_75.joblib"
+    },
+    "85": {
+      "best_model": "Random Forest",
+      "accuracy": 0.76,
+      "macro_f1": 0.7496340431792268,
+      "log_loss": 2.1232322366652157,
+      "wrong_confidence": 0.5683409645243224,
+      "selection_score": 0.5799260658408993,
+      "model_file": "match_outcome_85.joblib"
+    }
+  }
+}

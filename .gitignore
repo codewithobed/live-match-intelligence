@@ -1,0 +1,58 @@
+# ==========================================
+# LiveMatch Intelligence - Git Ignore
+# ==========================================
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Test/cache files
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE / editor files
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary project inspection files
+project_structure.txt
+app_first_120.txt
+full_report_functions.txt
+
+# Temporary development/test images
+*_test.png
+*_cleaned.png
+*_refined.png
+
+# Image cache
+data/image_cache/
+
+# Logs
+*.log
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Temporary files
+*.tmp
+*.temp
+~$*
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+# Root-level development screenshots and generated previews
+/*.png
