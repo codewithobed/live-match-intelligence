@@ -6,6 +6,12 @@
 > **Data source:** StatsBomb Open Data  
 > **Important:** The current implementation uses historical event data to simulate live-match analysis. It is not connected to a real-time commercial event feed.
 
+## Dashboard Preview
+
+LiveMatch Intelligence transforms football event data into analyst-ready match intelligence, including team comparisons, shot analysis, progressive actions, territorial control, tactical signals and automated reporting.
+
+![LiveMatch Intelligence Match Report](docs/images/livematch_overview.png)
+
 ---
 
 ## Overview
